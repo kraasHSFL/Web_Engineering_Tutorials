@@ -1,0 +1,14 @@
+h3 {
+   color: green;
+   background-color: aqua;
+   font-size: 2rem;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+div {
+   padding: 30px;
+   margin: 20px;
+}
+span {
+   border: 2px solid powderblue;
+   padding: 10px;
+}
