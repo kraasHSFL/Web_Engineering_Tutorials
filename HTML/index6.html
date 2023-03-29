@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Tables</title>
+   <link rel="icon" type="image/x-icon" href="./img/favicon-32x32.png">
+   <style>
+      table{
+         border-spacing: 5px;
+      }
+      table, th, td {
+         border: 1px solid black;
+      }
+      th, td {
+         padding: 10px;
+         border-style: dotted;
+         border-color: black;
+         border-radius: 5px;
+      }
+      tr:nth-child(even){
+         background-color: #f8f8f8;
+      }
+      th:nth-child(even){
+         background-color: lightgreen;
+      }
+   </style>
+</head>
+   <body>
+      <table>
+         <tr>
+            <th>Firma</th>
+            <th>Ansprechpartner</th>
+            <th>Land</th>
+         </tr>
+         <tr>
+            <td>Musterfirma</td>
+            <td>Max Mustermann</td>
+            <td>Musterland</td>
+         </tr>
+         <tr>
+            <td>Förde GmbH</td>
+            <td>Felix Fördemann</td>
+            <td>Fördeland</td>
+         </tr>
+      </table>
+      <br>
+      <table style="width: 100%; text-align: center;">
+         <tr>
+            <th>Firma</th>
+            <th style="width: 70%;">Ansprechpartner</th>
+            <th>Land</th>
+         </tr>
+         <tr style="height: 100px;">
+            <td>Musterfirma</td>
+            <td>Max Mustermann</td>
+            <td>Musterlan</td>
+         </tr>
+         <tr>
+            <td>Förde GmbH</td>
+            <td>Felix Fördemann</td>
+            <td>Fördeland</td>
+         </tr>
+      </table>
+      <br>
+      <table style="width: 100%; text-align: center;">
+         <colgroup>
+            <col span="2" style="background-color: #D6EEEE;">
+         </colgroup>
+         <tr>
+            <th></th>
+            <th>Montag</th>
+            <th>Dienstag</th>
+            <th>Mittwoch</th>
+            <th>Donnerstag</th>
+            <th>Freitag</th>
+            <th>Samstag</th>
+         </tr>
+         <tr>
+            <th>07:00</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr>
+            <th>08:00</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+         </tr>
+      </table>
+      <br>
+      <table>
+         <tr>
+            <th colspan="2">Name</th>
+            <th>Alter</th>
+         </tr>
+         <tr>
+            <td>Max</td>
+            <td>Mustermann</td>
+            <td>69</td>
+         </tr>
+      </table>
+      <br>
+      <table>
+         <caption>Mitarbeiter</caption>
+         <tr>
+            <th colspan="2">Name</th>
+            <th>Alter</th>
+         </tr>
+         <tr>
+            <td>Max</td>
+            <td>Mustermann</td>
+            <td>69</td>
+         </tr>
+         <tr>
+            <td>Mia</td>
+            <td>Musterfrau</td>
+            <td>31</td>
+         </tr>
+      </table>
+      <br>
+      <table style="width: 100%; text-align: center;">
+         <tr>
+            <th></th>
+            <th>Montag</th>
+            <th>Dienstag</th>
+            <th>Mittwoch</th>
+            <th>Donnerstag</th>
+            <th>Freitag</th>
+            <th>Samstag</th>
+         </tr>
+         <tr>
+            <th>07:00</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td rowspan="2">Uni</td>
+            <td></td>
+            <td></td>
+         </tr>
+         <tr>
+            <th>08:00</th>
+            <td colspan="3">Kaffee trinken</td>
+            <td></td>
+            <td></td>
+         </tr>
+      </table>
+      <br>
+   </body>
+</html>
