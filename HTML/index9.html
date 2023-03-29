@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Hello World</title>
+   <link rel="icon" type="image/x-icon" href="./img/favicon-32x32.png">
+   <style>
+    .city {
+      background-color: orange;
+      color: white;
+      border-left: 20px solid blue;
+      margin: 20px;
+      padding: 20px;
+      width: 30%;
+    }
+    .capital{
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+    }
+    #header{
+      background-color: lightblue;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+   </style>
+</head>
+   <body>
+    <h1 id="header">Block-Elemente</h1>
+     <p>Hello World</p>
+     <div>Hello World</div>
+
+     <div style="background-color: beige; border: 5px solid saddlebrown; padding: 20px;">
+      <h2>Toaster</h2>
+      <p>Ein Toaster ist ein elektrischer Apparat zum Rösten von Brot, besonders von Toastbrot.</p>
+     </div>
+
+     <h1>Inline-Elemente</h1>
+     <span>Hello World</span>
+     <span>Hello World</span>
+     <br>
+     <br>
+     <div class="city">
+      <h2 class="capital">Berlin</h2>
+      <p class="text">Hauptstadt von Deutschland.</p>
+     </div>
+     <div class="city">
+      <h2 class="capital">London</h2>
+      <p class="text">Hauptstadt von England.</p>
+     </div>
+     <div class="city">
+      <h2 class="capital">Paris</h2>
+      <p class="text">Hauptstadt von Frankreich.</p>
+     </div>
+     <br>
+     <button onclick="hideText()">Text verschwinden lassen!</button>
+     <br>
+     <button onclick="displayGreeting()">Guten Tag!</button>
+   </body>
+   <script>
+    function hideText() {
+      var x = document.getElementsByClassName("text");
+      for (var i = 0; i < x.length; i++){
+        x[i].style.display = "none";
+      }
+    }
+    function displayGreeting() {
+      document.getElementById("header").innerHTML = "Guten Tag!";
+    }
+   </script>
+</html>
