@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>HelloWorld</title>
+   <style>
+      a:link{
+         color: blue;
+         background-color: transparent;
+         text-decoration: none;
+      }
+      a:visited{
+         color: magenta;
+         background-color: transparent;
+         text-decoration: none;
+      }
+      a:hover{
+         color: black;
+         text-decoration: underline;
+      }
+      a:active{
+         color: aqua;
+         text-decoration: underline;
+      }
+      .wthree:link, .wthree:visited {
+         border: 2px solid black;
+         font-family: Arial, Helvetica, sans-serif;
+         color: black;
+         padding: 15px 25px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+      }
+      .wthree:hover, .wthree:active {
+         background-color: lightgray;
+      }
+   </style>
+</head>
+   <body>
+      <a href="https://www.kraas.media/" target="_blank">Besuche meine Webseite!</a>
+
+      <h2>Absolute URL'S</h2>
+      <p><a href="https://www.w3.org">W3C</a></p>
+      <p><a href="https://www.duckduckgo.com">Duckduckgo</a></p>
+
+      <h2>Relative URL'S</h2>
+      <p><a href="./img/287.jpeg">Süßes Katzenbild</a></p>
+      <p><a href="./styles.css">Eine CSS-Datei</a></p>
+
+      <a href="https://placekitten.com/">
+         <img src="./img/287.jpeg" alt="Kätzchen" style="width: 200px; height: auto;">
+      </a>
+      <br>
+      <a href="mailto:marcel.kraas@stud.hs-flensburg.de">E-Mail senden</a>
+      <br>
+      <br>
+      <button onclick="document.location='./index.html'">Erste html-Seite</button>
+      <br>
+      <a href="https://www.kraas.media/about#about" target="_blank" title="Gehe zur Über mich Section">Lerne mich kennen!</a>
+      <br>
+      <br>
+      <a href="http://www.w3schools.com" class="wthree">Gehe zu W3 Schools</a>
+      <br>
+      <a href="#footer">Gehe zum Footer</a>
+      <h2 id="footer" style="margin-top: 1000px;">Footer</h2>
+   </body>
+</html>
