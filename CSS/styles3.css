@@ -1,0 +1,35 @@
+p {
+  font-size: 20px;
+  width: 500px;
+  height: 50 px;
+  margin: 20px 0 0 50px;
+  padding: 10px;
+}
+
+.p1{
+  border: 1px solid black;
+}
+.p2{
+  border-bottom: 1px solid red;
+}
+.p3{
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.p4{
+  background-color: lightskyblue;
+  border-left: 5px solid blue;
+}
+p.dotted {border-style: dotted; border-width: thick; border-radius: 10px;}
+p.dashed {border-style: dashed; border-width: thin;}
+p.solid {border-style: solid; border-width: 2px 4px 6px 8px;}
+p.double {border-style: double; border-color: red green blue black;}
+p.groove {border-style: groove; border-color: #FF7777;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+p.sides{border-style: dotted dashed double;}
+p.short{border-bottom: 5px solid red;}
