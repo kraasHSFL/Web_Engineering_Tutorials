@@ -1,0 +1,17 @@
+body {
+  background: green url(./img/image-3.jpg) no-repeat left bottom;
+  background-attachment: fixed;
+ }
+ 
+div {
+  
+  background-image: url('./img/image-1.jpg');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: scroll;
+  height: 3000px;
+ }
+#p1{
+  opacity: 0.5;
+  background: rgba(125, 125, 125, 0.5);
+ }
