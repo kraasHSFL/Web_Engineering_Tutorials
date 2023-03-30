@@ -8,6 +8,19 @@ body {
  }
  
  p {
-   font-family: verdana;
    font-size: 20px;
+   color: red;
+   text-align: center;
+ }
+ #p1{
+   font-size: 25px;
+   color: white;
+   text-align: end;
+   width: 50%;
+ }
+ .border {
+   border-top: 2px solid grey;
+ }
+ *{
+   font-family: verdana;
  }
