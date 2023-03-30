@@ -6,9 +6,9 @@ body {
    color: white;
    text-align: center;
  }
- 
+ /*Einzeiliger Kommentar für Paragraph*/
  p {
-   font-size: 20px;
+   font-size: 20px; /*Schriftgröße zu 20px gesetzt*/
    color: red;
    text-align: center;
  }
@@ -18,9 +18,28 @@ body {
    text-align: end;
    width: 50%;
  }
+ /*
+ Mehrzeiliger
+ Kommentar
+ */
  .border {
    border-top: 2px solid grey;
  }
+ .marginL{
+   margin-left: 10%;
+ }
  *{
    font-family: verdana;
+ }
+ .red{
+   background-color: red;
+ }
+ .green{
+   background-color: #00FF00;
+ }
+ .blue{
+   background-color: hsl(255, 100%, 50%);
+ }
+ .yellow{
+   background-color: rgb(255, 255, 0);
  }
