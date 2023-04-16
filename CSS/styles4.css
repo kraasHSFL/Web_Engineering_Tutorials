@@ -1,0 +1,53 @@
+h1 {
+  margin: 0 0 50px 0;
+}
+h2 {
+  margin: 0 0 0 100px;
+}
+
+div {
+width: 300px;
+margin: auto;
+border: 1px solid gray;
+}
+
+.p1 {
+  margin-top: 100px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  margin-left: 70px;
+}
+
+.p2 {
+  margin: 100px 20px 50px 70px;
+}
+
+.p3 {
+  margin: inherit;
+}
+
+.d2 {
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+.d3 {
+  padding: 10px 10px 5px 5px;
+  box-sizing: border-box;
+}
+
+.d4 {
+  height: 200px;
+  width: 50%;
+  max-width: 500px;
+  background-color: orange;
+}
+
+.d5 {
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
