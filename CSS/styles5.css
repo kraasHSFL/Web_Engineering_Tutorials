@@ -1,0 +1,17 @@
+p {
+  margin-bottom: 30px;
+  outline: 5px solid red;
+  border: 2px solid black;
+}
+p.dotted {outline-style: dotted; outline-color: blue;}
+p.dashed {outline-style: dashed; outline-color: gray;}
+p.solid {outline-style: solid;}
+p.double {outline-style: double;}
+p.groove {outline-style: groove;}
+p.ridge {outline-style: ridge;}
+p.inset {outline-style: inset;}
+p.outset {outline-style: outset;}
+p.short {
+  outline: thick ridge pink;
+  outline-offset: 5px;
+}
