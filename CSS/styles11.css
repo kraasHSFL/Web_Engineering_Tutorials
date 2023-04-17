@@ -1,0 +1,45 @@
+h1:first-child {
+  color: blue;
+}
+a:link {
+  color: #FF0000;
+}
+
+a:visited {
+  color: #00FF00;
+}
+
+a:hover {
+  color: #FF00FF;
+}
+
+a:active {
+  color: #0000FF;
+}
+
+.a {
+  width: 200px; 
+  height: 200px; 
+  background-color: #FF0000;
+}
+.a:hover {
+  background-color: red;
+}
+
+p {
+  display: none;
+  background-color: yellow;
+  padding: 20px;
+}
+
+div:hover p {
+  display: block;
+}
+
+p i:first-child {
+  text-transform: uppercase;
+}
+
+p:first-child i {
+  color: blue;
+}
