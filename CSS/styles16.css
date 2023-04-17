@@ -1,0 +1,53 @@
+body {
+  counter-reset: section;
+}
+
+h2::before {
+  counter-increment: section;
+  content: "Section " counter(section) ": ";
+}
+
+ol {
+  counter-reset: section;
+  list-style-type: none;
+}
+
+li::before {
+  counter-increment: section;
+  content: counters(section,".") " ";
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+  color: green !important;
+}
+
+#div1 {
+  width: calc(100% - 100px);
+  border: 1px solid black;
+  background-color: yellow;
+  padding: 5px;
+  margin: auto;
+}
