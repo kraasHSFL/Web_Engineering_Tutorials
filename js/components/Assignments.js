@@ -16,9 +16,9 @@ export default {
    data() {
       return {
          assignments: [
-            { name: 'Projekt abschließen', complete: false, id: 1 },
-            { name: 'Lese Kapitel 4', complete: false, id: 2 },
-            { name: 'Hausaufgaben einreichen', complete: false, id: 3 },
+            { name: 'Projekt abschließen', complete: false, id: 1, tag: 'math' },
+            { name: 'Lese Kapitel 4', complete: false, id: 2, tag: 'science' },
+            { name: 'Hausaufgaben einreichen', complete: false, id: 3, tag: 'math' },
          ],
       }
    },
