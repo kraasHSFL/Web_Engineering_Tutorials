@@ -1,6 +1,7 @@
 <script setup>
 import { useStorage } from "@/composables/useStorage";
 import TabableTexarea from "../components/TabableTexarea.vue";
+import TestComponent from "../components/TestComponent.vue";
 import { ref } from 'vue';
 
   let food = useStorage('food', 'pizza');
@@ -25,6 +26,7 @@ import { ref } from 'vue';
     <form action="">
       <TabableTexarea v-model="comment" style="width: 100%; height: 300px;"></TabableTexarea>
     </form>
+    <TestComponent/>
   </main>
 </template>
  

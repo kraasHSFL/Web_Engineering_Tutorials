@@ -1,6 +1,15 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from '@/components/HelloWorld.vue'
+  import { RouterLink, RouterView } from 'vue-router'
+  import HelloWorld from '@/components/HelloWorld.vue'
+  import { provide, ref } from 'vue';
+  
+
+  let name = ref('John Doe');
+
+  provide('name', {
+    name,
+    changeName: () => name.value = 'Changed'  
+  });
 </script>
 
 <template>
