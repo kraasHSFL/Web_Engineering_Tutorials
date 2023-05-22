@@ -7,7 +7,10 @@
 <template>
   <header class="flex justify-between">
     <div>
-      <button class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded disabled:bg-gray-400">Spots left</button>
+      <button 
+      class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded disabled:bg-gray-400"
+      @click="$emit('add')"
+      >Spots left</button>
     </div>
 
     <div>
