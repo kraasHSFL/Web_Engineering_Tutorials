@@ -3,7 +3,7 @@ import { defineStore } from "pinia";
 export let useTeamStore = defineStore('team', {
   state: () => ({
     name: '',
-    spots: 0,
+    spots: 10,
     members: []
   }),
 
